@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="background" translatesAutoresizingMaskIntoConstraints="NO" id="nNK-OM-pxw">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo" translatesAutoresizingMaskIntoConstraints="NO" id="LPM-9W-t3d">
+                                <rect key="frame" x="80" y="0.0" width="254" height="896"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="nNK-OM-pxw" firstAttribute="bottom" secondItem="LPM-9W-t3d" secondAttribute="bottom" id="ADS-iX-0t2"/>
+                            <constraint firstItem="LPM-9W-t3d" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" constant="-80" id="D6G-Xa-tLd"/>
+                            <constraint firstItem="LPM-9W-t3d" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="80" id="MqQ-41-Urp"/>
+                            <constraint firstItem="nNK-OM-pxw" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="topMargin" constant="-44" id="QCy-aW-jSF"/>
+                            <constraint firstItem="nNK-OM-pxw" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="Wl3-2c-1Xv"/>
+                            <constraint firstItem="nNK-OM-pxw" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="c9g-rM-dJB"/>
+                            <constraint firstItem="nNK-OM-pxw" firstAttribute="centerX" secondItem="LPM-9W-t3d" secondAttribute="centerX" id="chr-B1-Lbt"/>
+                            <constraint firstItem="nNK-OM-pxw" firstAttribute="top" secondItem="LPM-9W-t3d" secondAttribute="top" id="hTX-qK-Qv2"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="52.173913043478265" y="375"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="background" width="3977" height="5957"/>
+        <image name="logo" width="800" height="600"/>
+    </resources>
+</document>
